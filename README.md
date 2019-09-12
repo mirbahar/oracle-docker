@@ -24,7 +24,7 @@ step3: view docker images in your system :-
         - docker images
 step4:  now run your specific docker image with http port:-
 
-        - docker run --name bd9efe486cab --shm-size=1g -p 1521:1521 -p 8080:8080 -e 123456 oracle/database:g.2
+        - docker run --name c1c5c8483664 --shm-size=1g -p 1521:1521 -p 8080:8080 -e 123456 oracle/database:11g.2
         
         here :
               bd9efe486cab : actually you should define you conatiner name.
@@ -44,3 +44,4 @@ Usages:-
     password : 123456
     
     http://127.0.0.1:8080/apex
+    
