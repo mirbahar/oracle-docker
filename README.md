@@ -36,7 +36,7 @@ step4:  now run your specific docker image with http port:-
 
 step5: finally start your docker container:-
 
-            - docker start conatiner_name
+            - docker start conatiner_name or container id
             
 Usages:-
 
